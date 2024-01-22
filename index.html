@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Legal solution</title>
+        
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
         <!-- taildwind cdn  -->
         <script src="https://cdn.tailwindcss.com"></script>
-        <!-- daisy ui -->
+
+        
+        <!--  daisy ui -->
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com"></script> 
         <!-- font-awsam  -->
-        <script src="https://kit.fontawesome.com/3d14535f80.js" crossorigin="anonymous"></script>
-        <script>
+         <script src="https://kit.fontawesome.com/3d14535f80.js" crossorigin="anonymous"></script> 
+         <script>
             tailwind.config = {
               theme: {
                 extend: {
@@ -25,18 +28,54 @@
                 }
               }
             }
-          </script>
-          <style>
-            .Garamond{
-                font-family: 'EB Garamond', serif;
+          </script> 
+           <style>
+            .Manrope{
+                font-family: 'Manrope', sans-serif;
                 
             }
-            .poppins{
-                font-family: 'Poppins', sans-serif;
-            }
-          </style>
-    </head>
-<body>
+           
+          </style> 
+</head>
+<body class="Manrope ">
+    <header>
+        <nav>
+
+        </nav>
+         <section class="lg:mb-24 mt-12" >
+            <div class="container mx-auto h-[60vh] relative" >
+                <div class="carousel w-full h-[60vh] relative  ">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="B9A3-Hockeys-main/Images/1.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="B9A3-Hockeys-main/Images/1.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="bg-black lg:w-[30%] w-full py-4 lg:p-8 rounded-lg lg:absolute right-8 bottom-8">
+                    <h3 class="lg:text-2xl text-xl text-white pb-4 font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                 
+            </div>
+            
+        </section>
+
+    </header> 
     
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
